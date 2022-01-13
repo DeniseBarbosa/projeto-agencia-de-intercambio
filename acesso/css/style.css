@@ -15,3 +15,23 @@ body{
     background-color: #117050;
     height: 10px;
 }
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.cabecalho__area{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    
+}
+.logo img{
+    width: 139px;
+    height: 80px;
+}
+.buscador input{
+    font-size: 16px;
+    padding: 7px 10px;
+    border: 1px solid #999999;
+}
