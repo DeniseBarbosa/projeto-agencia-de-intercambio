@@ -1,0 +1,17 @@
+/**********************************/
+/* 1. Estilos gerais
+/**********************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/**********************************/
+/* 2. Menu
+/**********************************/
+ header .linha{
+    background-color: #117050;
+    height: 10px;
+}
