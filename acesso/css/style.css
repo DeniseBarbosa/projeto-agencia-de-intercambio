@@ -67,3 +67,31 @@ body{
     width: 24px;
     height: 24px;
 }
+/**********************************/
+/* 3. Banner
+/**********************************/
+.banner{
+    background-image: url('../imagens/imagem-fundo.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.banner h1{
+    font-family: 'Oswald','sans-serif' ;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 100px;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+.banner__Tres__imagens{
+    margin-top: 60px;
+}
+.banner__Tres__imagens img{
+    width: 148px;
+    height: 140px;
+    border: 6px solid #117050;
+    border-radius: 50%;
+    margin-right: 40px;
+}
