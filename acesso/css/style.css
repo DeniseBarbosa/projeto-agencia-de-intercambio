@@ -186,3 +186,29 @@ h2{
     padding-bottom: 30px;
     line-height: 25px;
 }
+/**********************************/
+/* 6. Area 3
+/**********************************/
+
+
+.area3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.area3__conteudo{
+    padding: 200px 80px;
+    
+}
+.area3__imagem{
+    background-image: url('../imagens/malta.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.area3__texto{
+    padding-bottom: 30px;
+    line-height: 25px;
+}
+.barra__designer1{
+    background-color: red;
+    width: 168px;
+    height: 22px;
