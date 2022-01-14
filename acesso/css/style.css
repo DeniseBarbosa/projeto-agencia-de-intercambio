@@ -8,6 +8,33 @@ body{
     margin: 0px;
     box-sizing: border-box;
 }
+h1{
+    font-family: 'Oswald','sans-serif' ;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 100px;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+h2{
+    font-family: 'Oswald','sans-serif' ;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 20px 0px;
+    
+}
+.button{
+    display: inline-block;
+    border: 2px solid #454545;
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: #454545;
+    text-decoration: none;
+}
+.button:hover{
+    color: #fff;
+    background-color: #454545;
+}
 /**********************************/
 /* 2. Menu
 /**********************************/
@@ -77,14 +104,7 @@ body{
     padding-top: 90px;
     padding-bottom: 90px;
 }
-.banner h1{
-    font-family: 'Oswald','sans-serif' ;
-    font-weight: bold;
-    font-size: 80px;
-    line-height: 100px;
-    margin: 0px;
-    margin-bottom: 30px;
-}
+
 .banner__Tres__imagens{
     margin-top: 60px;
 }
@@ -93,5 +113,40 @@ body{
     height: 140px;
     border: 6px solid #117050;
     border-radius: 50%;
-    margin-right: 40px;
+    margin-right: 40px;   
+}
+/**********************************/
+/* 4. Area 1
+/**********************************/
+.area1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.area1__conteudo{
+    padding: 80px;
+}
+.area1__primeira__img{
+    height: 350px;
+    background-image: url('../imagens/img-estados-unidos.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.area1__segunda__img{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    background-image: url('../imagens/img-estados-unidos1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.barra__designer1{
+    background-color: red;
+    width: 168px;
+    height: 22px;
+}
+.frasesinha{
+    margin-bottom: 30px;
+}
+.texto{
+    padding-bottom: 30px;
+    line-height: 25px;
 }
