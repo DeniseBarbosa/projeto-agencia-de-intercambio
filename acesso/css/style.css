@@ -236,3 +236,21 @@ h2{
     background-size: cover;
     background-position: center;
 }
+/**********************************/
+/* 8. Area 5
+/**********************************/
+.area5{
+    background-image: url('../imagens/viajar.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+/**********************************/
+/* 9. Rodapé
+/**********************************/
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 80px;
+    text-align: center;
+}
