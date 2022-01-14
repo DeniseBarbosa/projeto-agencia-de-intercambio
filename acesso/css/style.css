@@ -212,3 +212,27 @@ h2{
     background-color: red;
     width: 168px;
     height: 22px;
+}
+
+/**********************************/
+/* 7. Area 4
+/**********************************/
+.area4{
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    background-color: #f3dac7;
+}
+.area4__coonteudo{
+    padding: 150px 80px;
+    
+}
+.area4__texto{
+    margin-bottom: 50px;
+    line-height: 25px;
+    
+}
+.area4__imagem{
+    background-image: url('../imagens/autralia.jpg');
+    background-size: cover;
+    background-position: center;
+}
