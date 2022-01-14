@@ -18,20 +18,52 @@ body{
 .container{
     max-width: 1140px;
     margin: auto;
+    
 }
 .cabecalho__area{
+    
     display: flex;
     justify-content: space-between;
     height: 100px;
     align-items: center;
-    
 }
 .logo img{
     width: 139px;
     height: 80px;
 }
+
+.buscar-menu{
+    display: flex;
+    align-items: center;
+}
+
+
 .buscador input{
     font-size: 16px;
     padding: 7px 10px;
     border: 1px solid #999999;
+    outline: 0;
+    width: 100%;
+    max-width: 220px;
+}
+.buscador button{
+    border: 0;
+    background-color: transparent;
+    margin: -30px;
+    cursor: pointer;
+}
+.buscador button img{
+    width: 16px;
+    height: 16px;
+}
+.buscador form{
+    display: flex;
+}
+.menu__lateral{
+    margin-left: 50px;
+    cursor: pointer;
+}
+.menu__lateral img{
+    width: 24px;
+    height: 24px;
 }
